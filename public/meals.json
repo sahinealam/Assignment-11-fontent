@@ -1,0 +1,230 @@
+[
+  {
+    "id": "M001",
+    "name": "Smoky Butter Chicken",
+    "chefName": "Chef Amina",
+    "chefId": "chef-2041",
+    "price": 14.5,
+    "rating": 4.9,
+    "deliveryArea": "Gulshan, Banani",
+    "estimatedDelivery": "35 min",
+    "experience": "8 years in North Indian cuisine",
+    "ingredients": [
+      "Free-range chicken",
+      "Kasuri methi",
+      "Roma tomatoes",
+      "Cream",
+      "Garam masala"
+    ],
+    "image": "https://images.unsplash.com/photo-1604908177390-8338c8872189?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "M002",
+    "name": "Charred Veg Buddha Bowl",
+    "chefName": "Chef Rafid",
+    "chefId": "chef-1863",
+    "price": 11.0,
+    "rating": 4.7,
+    "deliveryArea": "Dhanmondi, Lalmatia",
+    "estimatedDelivery": "30 min",
+    "experience": "6 years in plant-forward menus",
+    "ingredients": [
+      "Quinoa",
+      "Avocado",
+      "Roasted carrots",
+      "Tahini",
+      "Chickpeas"
+    ],
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "M003",
+    "name": "Slow-Cooked Beef Nihari",
+    "chefName": "Chef Rahim",
+    "chefId": "chef-1508",
+    "price": 15.5,
+    "rating": 4.8,
+    "deliveryArea": "Mirpur, Agargaon",
+    "estimatedDelivery": "45 min",
+    "experience": "10 years in heritage recipes",
+    "ingredients": [
+      "Grass-fed beef",
+      "Ghee",
+      "Browned onions",
+      "Kalonji",
+      "Bone marrow"
+    ],
+    "image": "https://images.unsplash.com/photo-1589308078056-8323b3cda77c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "M004",
+    "name": "Fire-Kissed Prawn Linguine",
+    "chefName": "Chef Tashfia",
+    "chefId": "chef-2120",
+    "price": 16.0,
+    "rating": 4.9,
+    "deliveryArea": "Baridhara, Bashundhara",
+    "estimatedDelivery": "32 min",
+    "experience": "7 years in coastal fusion",
+    "ingredients": [
+      "Tiger prawns",
+      "Garlic confit",
+      "Cherry tomatoes",
+      "Chili oil",
+      "Fresh basil"
+    ],
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80&sat=-30"
+  },
+  {
+    "id": "M005",
+    "name": "Citrus Herb Salmon",
+    "chefName": "Chef Liyana",
+    "chefId": "chef-1310",
+    "price": 17.0,
+    "rating": 4.8,
+    "deliveryArea": "Uttara",
+    "estimatedDelivery": "34 min",
+    "experience": "9 years in modern pescatarian plates",
+    "ingredients": [
+      "Atlantic salmon",
+      "Lemon zest",
+      "Dill",
+      "Olive oil",
+      "Sea salt"
+    ],
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80&sat=-20"
+  },
+  {
+    "id": "M006",
+    "name": "Smoked Chili Ramen",
+    "chefName": "Chef Kenji",
+    "chefId": "chef-9872",
+    "price": 13.0,
+    "rating": 4.6,
+    "deliveryArea": "Mohammadpur, Shyamoli",
+    "estimatedDelivery": "28 min",
+    "experience": "12 years in ramen & izakaya",
+    "ingredients": [
+      "Shoyu broth",
+      "Ajitsuke egg",
+      "Nori",
+      "Charred corn",
+      "Smoked chili oil"
+    ],
+    "image": "https://images.unsplash.com/photo-1604908177535-0ac1c9be0f2c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "M007",
+    "name": "Truffle Paneer Tikka",
+    "chefName": "Chef Arnav",
+    "chefId": "chef-4411",
+    "price": 12.5,
+    "rating": 4.7,
+    "deliveryArea": "Badda, Aftabnagar",
+    "estimatedDelivery": "33 min",
+    "experience": "5 years in modern Indian small plates",
+    "ingredients": [
+      "Cottage cheese",
+      "Smoked paprika",
+      "Greek yogurt",
+      "Truffle oil",
+      "Pickled onions"
+    ],
+    "image": "https://images.unsplash.com/photo-1604908177390-8338c8872189?auto=format&fit=crop&w=1200&q=80&sat=-12"
+  },
+  {
+    "id": "M008",
+    "name": "Hand-Stretched Margherita",
+    "chefName": "Chef Paolo",
+    "chefId": "chef-5599",
+    "price": 10.0,
+    "rating": 4.5,
+    "deliveryArea": "Banani, Gulshan",
+    "estimatedDelivery": "25 min",
+    "experience": "11 years in Neapolitan pizza",
+    "ingredients": [
+      "San Marzano tomatoes",
+      "Fior di latte",
+      "Fresh basil",
+      "Olive oil",
+      "Sea salt"
+    ],
+    "image": "https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "M009",
+    "name": "Harissa Roast Cauliflower",
+    "chefName": "Chef Sara",
+    "chefId": "chef-3307",
+    "price": 9.5,
+    "rating": 4.6,
+    "deliveryArea": "Dhanmondi, Zigatola",
+    "estimatedDelivery": "27 min",
+    "experience": "6 years in vegetable-forward menus",
+    "ingredients": [
+      "Cauliflower",
+      "Harissa",
+      "Toasted almonds",
+      "Pomegranate",
+      "Lemon yogurt"
+    ],
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "M010",
+    "name": "Midnight Kacchi Biryani",
+    "chefName": "Chef Zayan",
+    "chefId": "chef-7710",
+    "price": 14.0,
+    "rating": 4.9,
+    "deliveryArea": "Khilgaon, Malibagh",
+    "estimatedDelivery": "50 min",
+    "experience": "14 years in Dhaka street classics",
+    "ingredients": [
+      "Aged basmati",
+      "Mutton shank",
+      "Potato",
+      "Saffron milk",
+      "Browned onions"
+    ],
+    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "M011",
+    "name": "Coconut Lemongrass Curry",
+    "chefName": "Chef Dipa",
+    "chefId": "chef-2299",
+    "price": 11.5,
+    "rating": 4.5,
+    "deliveryArea": "Rampura, Banasree",
+    "estimatedDelivery": "31 min",
+    "experience": "9 years in pan-Asian comfort",
+    "ingredients": [
+      "Coconut milk",
+      "Lemongrass",
+      "Thai basil",
+      "Baby corn",
+      "Tofu"
+    ],
+    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "M012",
+    "name": "Burnt Garlic Fried Rice",
+    "chefName": "Chef Nabil",
+    "chefId": "chef-4901",
+    "price": 8.0,
+    "rating": 4.4,
+    "deliveryArea": "Farmgate, Tejgaon",
+    "estimatedDelivery": "24 min",
+    "experience": "4 years in wok-style rice bowls",
+    "ingredients": [
+      "Steamed rice",
+      "Burnt garlic",
+      "Spring onion",
+      "Sesame",
+      "Egg"
+    ],
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80&sat=-16"
+  }
+]

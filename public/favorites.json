@@ -1,0 +1,23 @@
+[
+  {
+    "id": "FAV-001",
+    "mealName": "Smoky Butter Chicken",
+    "chefName": "Chef Amina",
+    "price": 14.5,
+    "addedDate": "2025-01-15"
+  },
+  {
+    "id": "FAV-002",
+    "mealName": "Citrus Herb Salmon",
+    "chefName": "Chef Liyana",
+    "price": 17.0,
+    "addedDate": "2025-01-12"
+  },
+  {
+    "id": "FAV-003",
+    "mealName": "Truffle Paneer Tikka",
+    "chefName": "Chef Arnav",
+    "price": 12.5,
+    "addedDate": "2025-01-10"
+  }
+]

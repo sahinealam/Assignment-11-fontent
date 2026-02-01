@@ -1,0 +1,23 @@
+[
+  {
+    "id": "REV-001",
+    "mealName": "Smoky Butter Chicken",
+    "rating": 5,
+    "comment": "Amazing taste and quality!",
+    "date": "2025-01-15"
+  },
+  {
+    "id": "REV-002",
+    "mealName": "Charred Veg Buddha Bowl",
+    "rating": 4,
+    "comment": "Good but could use more seasoning.",
+    "date": "2025-01-10"
+  },
+  {
+    "id": "REV-003",
+    "mealName": "Slow-Cooked Beef Nihari",
+    "rating": 5,
+    "comment": "Absolutely delicious, worth every penny!",
+    "date": "2025-01-12"
+  }
+]

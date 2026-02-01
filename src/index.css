@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+	--bg: #0f1720;
+	--panel: rgba(255, 255, 255, 0.06);
+	--accent: #e2725b;
+	--accent-2: #f2c14f;
+	--text: #f8f5f0;
+	--muted: #c7c4bc;
+	color-scheme: dark;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Space Grotesk', 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	background: radial-gradient(circle at 10% 20%, rgba(226, 114, 91, 0.14), transparent 25%),
+		radial-gradient(circle at 90% 10%, rgba(242, 193, 79, 0.12), transparent 20%),
+		radial-gradient(circle at 50% 80%, rgba(80, 129, 109, 0.18), transparent 28%),
+		#0b1118;
+	color: var(--text);
+	min-height: 100vh;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.glass-card {
+	background: var(--panel);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	backdrop-filter: blur(10px);
+	border-radius: 18px;
+	box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+}
+
+.pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 12px;
+	border-radius: 999px;
+	background: rgba(255, 255, 255, 0.08);
+	color: var(--muted);
+	font-weight: 600;
+	letter-spacing: 0.01em;
+}
+
+.btn-solid {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 12px 18px;
+	border-radius: 14px;
+	background: linear-gradient(120deg, #e2725b, #f2c14f);
+	color: #0b1118;
+	font-weight: 700;
+	transition: transform 180ms ease, box-shadow 180ms ease;
+	box-shadow: 0 12px 30px rgba(226, 114, 91, 0.28);
+}
+
+.btn-solid:hover {
+	transform: translateY(-1px);
+	box-shadow: 0 16px 40px rgba(242, 193, 79, 0.32);
+}
+
+.btn-ghost {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 12px 16px;
+	border-radius: 14px;
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	color: var(--text);
+	transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.btn-ghost:hover {
+	border-color: rgba(226, 114, 91, 0.65);
+	transform: translateY(-1px);
+}
+
+.grid-auto-fill {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 20px;
+}
+
+.section-shell {
+	padding: 72px 0;
+}
+
+.headline {
+	font-size: clamp(32px, 5vw, 48px);
+	line-height: 1.05;
+	letter-spacing: -0.02em;
+}
+
+.subhead {
+	color: var(--muted);
+	font-size: 17px;
+	line-height: 1.6;
+}

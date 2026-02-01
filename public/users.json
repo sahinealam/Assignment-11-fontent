@@ -1,0 +1,6 @@
+[
+    { "id": "USR-001", "name": "John Doe", "email": "john@example.com", "role": "user", "status": "active" },
+    { "id": "USR-002", "name": "Chef Amina", "email": "amina@example.com", "role": "chef", "status": "active" },
+    { "id": "USR-003", "name": "Admin Sarah", "email": "admin@example.com", "role": "admin", "status": "active" }
+]</content>
+<parameter name="filePath">d:\Asssingment-11\assingment-11-fonten\public\users.json

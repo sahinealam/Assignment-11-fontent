@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ORD-001",
+    "mealName": "Smoky Butter Chicken",
+    "status": "Pending",
+    "price": 14.5,
+    "qty": 1,
+    "chefName": "Chef Amina",
+    "paymentStatus": "Pending"
+  },
+  {
+    "id": "ORD-002",
+    "mealName": "Charred Veg Buddha Bowl",
+    "status": "Delivered",
+    "price": 11.0,
+    "qty": 2,
+    "chefName": "Chef Rafid",
+    "paymentStatus": "Paid"
+  },
+  {
+    "id": "ORD-003",
+    "mealName": "Slow-Cooked Beef Nihari",
+    "status": "In Transit",
+    "price": 15.5,
+    "qty": 1,
+    "chefName": "Chef Rahim",
+    "paymentStatus": "Paid"
+  }
+]

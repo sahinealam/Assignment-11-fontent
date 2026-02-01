@@ -1,0 +1,20 @@
+{
+  "userNav": [
+    { "label": "Profile", "path": "/dashboard/profile", "icon": "LuUser" },
+    { "label": "My Orders", "path": "/dashboard/my-orders", "icon": "LuShoppingCart" },
+    { "label": "My Reviews", "path": "/dashboard/my-reviews", "icon": "LuMessageSquare" },
+    { "label": "Favorites", "path": "/dashboard/favorites", "icon": "LuHeart" }
+  ],
+  "chefNav": [
+    { "label": "Profile", "path": "/dashboard/profile", "icon": "LuUser" },
+    { "label": "Create Meal", "path": "/dashboard/create-meal", "icon": "LuChefHat" },
+    { "label": "My Meals", "path": "/dashboard/my-meals", "icon": "LuShoppingCart" },
+    { "label": "Order Requests", "path": "/dashboard/order-requests", "icon": "LuMessageSquare" }
+  ],
+  "adminNav": [
+    { "label": "Profile", "path": "/dashboard/profile", "icon": "LuUser" },
+    { "label": "Manage Users", "path": "/dashboard/manage-users", "icon": "LuChefHat" },
+    { "label": "Manage Requests", "path": "/dashboard/manage-requests", "icon": "LuMessageSquare" },
+    { "label": "Statistics", "path": "/dashboard/statistics", "icon": "LuHeart" }
+  ]
+}
