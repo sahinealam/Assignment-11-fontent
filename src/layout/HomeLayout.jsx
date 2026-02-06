@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const HomeLayout = () => {
-    console.log('HomeLayout rendered');
+    // console.log('HomeLayout rendered');
     return (
         <div className="flex flex-col min-h-screen">
             <nav className='w-11/12 mx-auto my-3'>

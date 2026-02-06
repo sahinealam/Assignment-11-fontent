@@ -8,7 +8,7 @@ const ManageUsers = () => {
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);
-
+  
   return (
     <div className="space-y-6">
       <div>

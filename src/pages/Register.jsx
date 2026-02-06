@@ -9,45 +9,65 @@ import axios from "axios";
 const Register = () => {
   const { createUser, setUser, updateUser, googleSignIn } =
     useContext(AuthContext);
+
   const [show, setShow] = useState(false);
+  const [showConfirm, setShowConfirm] = useState(false);
   const navigate = useNavigate();
 
   const handleSignup = async (e) => {
     e.preventDefault();
     const form = e.target;
+
     const name = form.name.value;
-    const photoURL = form.photoURL;
-    const file = photoURL.filees[0];
+    const photoInput = form.photoURL;
+    const file = photoInput.files[0];
     const email = form.email.value;
     const password = form.password.value;
-    console.log(file);
+    const confirmPassword = form.confirmPassword.value;
 
-    // ONLY password validation
-    const regExp = /^(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
-    if (!regExp.test(password)) {
-      toast.error("Password must be 6+ chars with uppercase and lowercase");
+    //  confirm password check
+    if (password !== confirmPassword) {
+      toast.error("Passwords do not match");
       return;
     }
 
-    const res = await axios.post(`https://api.imgbb.com/1/upload?key=`);
+    const res = await axios.post(
+      `https://api.imgbb.com/1/upload?key=a7b0b93479edec97c18c0f8e2a685f01`,
+      { image: file },
+      { headers: { "Content-Type": "multipart/form-data" } }
+    );
 
-    createUser(email, password)
-      .then((result) => {
-        const user = result.user;
-        updateUser({ displayName: name, photoURL: photo })
-          .then(() => {
-            setUser({ ...user, displayName: name, photoURL: photo });
-            navigate("/");
-            toast.success("Account created successfully");
-          })
-          .catch((error) => {
-            console.log(error);
-            setUser(user);
-          });
-      })
-      .catch((error) => {
-        toast.error(error.message);
-      });
+    const mainPhotoURL = res.data.data.display_url;
+    const fromData={
+      email,password,name,mainPhotoURL
+    }
+
+    if (res.data.success === true) {
+      createUser(email, password)
+        .then((result) => {
+          const user = result.user;
+          updateUser({ displayName: name, photoURL: mainPhotoURL })
+            .then(() => {
+              setUser({ ...user, displayName: name, photoURL: mainPhotoURL });
+              axios.post('http://localhost:3000/users', fromData)
+              .then(res =>{
+                console.log(res.data);
+              })
+              .catch(error =>{
+                console.log(error);
+              })
+              navigate("/");
+              toast.success("Account created successfully");
+            })
+            .catch((error) => {
+              console.log(error);
+              setUser(user);
+            });
+        })
+        .catch((error) => {
+          toast.error(error.message);
+        });
+    }
   };
 
   const handleGoogleSignUp = () => {
@@ -73,6 +93,7 @@ const Register = () => {
             Create your account to order fresh home-cooked meals.
           </p>
         </div>
+
         <form onSubmit={handleSignup} className="space-y-3">
           <div className="space-y-2">
             <label className="text-sm font-semibold block">Full name</label>
@@ -89,9 +110,8 @@ const Register = () => {
             <label className="text-sm font-semibold block">Photo URL</label>
             <input
               type="file"
-              name="photo url"
+              name="photoURL"
               className={inputClass}
-              placeholder="chosse File Photo"
               required
             />
           </div>
@@ -114,7 +134,7 @@ const Register = () => {
                 type={show ? "text" : "password"}
                 name="password"
                 className={inputClass}
-                placeholder="pasward"
+                placeholder="password"
                 required
               />
               <button
@@ -127,7 +147,28 @@ const Register = () => {
             </div>
           </div>
 
-          {/* CONFIRM PASSWORD REMOVED */}
+          {/* CONFIRM PASSWORD ADDED */}
+          <div className="space-y-2">
+            <label className="text-sm font-semibold block">
+              Confirm Password
+            </label>
+            <div className="relative">
+              <input
+                type={showConfirm ? "text" : "password"}
+                name="confirmPassword"
+                className={inputClass}
+                placeholder="confirm password"
+                required
+              />
+              <button
+                type="button"
+                onClick={() => setShowConfirm(!showConfirm)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-amber-200"
+              >
+                {showConfirm ? <IoEyeOff /> : <FaEye />}
+              </button>
+            </div>
+          </div>
 
           <button
             type="submit"
@@ -160,6 +201,7 @@ const Register = () => {
           >
             Log in
           </Link>
+          <button className="read"> blue</button>
         </p>
       </div>
     </div>
@@ -167,3 +209,4 @@ const Register = () => {
 };
 
 export default Register;
+

@@ -19,4 +19,4 @@ DaisyUI,
 Firebase,
 React-toastify,
 React-icons,
-Swiper,
+
