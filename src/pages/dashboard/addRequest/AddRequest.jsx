@@ -10,7 +10,7 @@ const AddRequest = () => {
     const [districts, setDistricts] = useState([]);
     const axiosSecure = useAxiosSecure()
 
-
+// useEfaect use
     useEffect(() => {
         axios.get('/upazila.json')
             .then(res => {
