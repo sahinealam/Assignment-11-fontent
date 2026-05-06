@@ -125,7 +125,7 @@ const Login = () => {
                             Login as Demo User
                         </button>
 
-                        {/* Divider */}
+                        {/* Divider line */}
                         <div className="flex w-full flex-col">
                             <div className="divider">OR</div>
                         </div>
