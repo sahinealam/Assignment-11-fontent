@@ -110,7 +110,7 @@ const Navbar = () => {
                                 className="px-6 py-3 rounded-2xl bg-red-600 text-white 
                                 font-semibold shadow-lg hover:bg-red-700 transition transform 
                                 hover:-translate-y-1"
-                            >Sign Up</Link>
+                            >Registration</Link>
                         </div>
                     )}
 

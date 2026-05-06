@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import { Link, useSearchParams } from "react-router";
 
+//pament success
+
 const PaymentSucces = () => {
   const [searchParams] = useSearchParams();
   const sessionId = searchParams.get("session_id");
