@@ -132,7 +132,7 @@ const Login = () => {
 
 
 
-                        <div>
+                        {/* <div>
                             <button
                                 type="button"
                                 onClick={handleGoogleSignIn}
@@ -146,13 +146,13 @@ const Login = () => {
                                 />
                                 Continue with Google
                             </button>
-                        </div>
+                        </div> */}
 
 
 
 
                         <p className='font-semibold pt-3 text-center'>Dont’t Have An Account ?
-                            <Link className='text-secondary' to='/signup'> Sign Up</Link></p>
+                            <Link className='text-secondary' to='/signup'> Rgaster</Link></p>
                     </fieldset>
                 </form>
             </div>
