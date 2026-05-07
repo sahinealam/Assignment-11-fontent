@@ -11,7 +11,7 @@ const Footer = () => {
                 <div>
                     <div className="flex items-center gap-2 mb-3">
                         <FaHeartbeat className="text-3xl text-red-600" />
-                        <h2 className="text-2xl font-bold tracking-wide">Drop Life</h2>
+                        <h2 className="text-2xl font-bold tracking-wide">Blood Donation</h2>
                     </div>
                     <p className="text-gray-300 leading-relaxed">
                         Drop Life connects blood donors and recipients, helping save lives
