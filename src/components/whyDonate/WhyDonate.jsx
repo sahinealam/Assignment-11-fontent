@@ -1,6 +1,7 @@
 import React from 'react';
 
 const WhyDonate = () => {
+    // Doner add 
     return (
         <div className="container mx-auto">
             {/* Section Title */}
