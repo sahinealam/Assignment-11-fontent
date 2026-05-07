@@ -11,7 +11,9 @@ const PaymentSucces = () => {
 
   useEffect(() => {
     axios
-      .post(`http://localhost:3000/success-payment?session_id=${sessionId}`)
+      .post(
+        `https://backend11-teal.vercel.app/success-payment?session_id=${sessionId}`,
+      )
       .then((res) => {
         console.log(res.data);
       });

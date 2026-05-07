@@ -92,7 +92,7 @@
 //               navigate("/");
 //               toast.success("SignUp Successful");
 //               axios
-//                 .post("http://localhost:3000/user", formData)
+//                 .post("https://backend11-teal.vercel.app/user", formData)
 //                 .then((res) => {
 //                   console.log(res.data);
 //                 })
@@ -305,7 +305,7 @@ const SignUp = () => {
 
     if (!passwordRegex.test(password)) {
       setFormError(
-        "Password must be at least 6 characters and include 1 uppercase, 1 lowercase, and 1 number."
+        "Password must be at least 6 characters and include 1 uppercase, 1 lowercase, and 1 number.",
       );
       return;
     }
@@ -324,7 +324,7 @@ const SignUp = () => {
           headers: {
             "Content-Type": "multipart/form-data",
           },
-        }
+        },
       );
 
       const mainPhoto = res.data.data.display_url;
@@ -356,7 +356,7 @@ const SignUp = () => {
                 navigate("/");
 
                 axios
-                  .post("http://localhost:3000/user", formData)
+                  .post("https://backend11-teal.vercel.app/user", formData)
                   .then((res) => {
                     console.log(res.data);
                   })
@@ -387,7 +387,6 @@ const SignUp = () => {
 
         <form onSubmit={handleSignup} className="card-body">
           <fieldset className="fieldset">
-
             {/* name */}
             <div>
               <label className="label">Name</label>
@@ -415,12 +414,7 @@ const SignUp = () => {
             {/* photo */}
             <div>
               <label className="label">Photo URL</label>
-              <input
-                type="file"
-                name="photo"
-                className="input"
-                required
-              />
+              <input type="file" name="photo" className="input" required />
             </div>
 
             {/* blood */}

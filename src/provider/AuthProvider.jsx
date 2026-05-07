@@ -62,11 +62,13 @@ const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     if (!user) return;
-    axios.get(`http://localhost:3000/user/role/${user.email}`).then((res) => {
-      setRole(res.data.role);
-      setUserStatus(res.data.status);
-      setRoleLoading(false);
-    });
+    axios
+      .get(`https://backend11-teal.vercel.app/user/role/${user.email}`)
+      .then((res) => {
+        setRole(res.data.role);
+        setUserStatus(res.data.status);
+        setRoleLoading(false);
+      });
   }, [user]);
 
   // console.log(userStatus);

@@ -9,7 +9,7 @@ const DonationRequest = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/donation-page")
+      .get("https://backend11-teal.vercel.app/donation-page")
       .then((res) => {
         // console.log(res.data);
         setPendingData(res.data);

@@ -1,10 +1,9 @@
 # [Client Live Link]()
 # [Server Live Link]()
-# [Server Github repo Link]()
 
 
 
-Project Name: **Drop Life**
+Project Name: **Dlod**
 
 Description:
 The Drop Life Application is a user-friendly platform that connects blood donors with recipients in need. Built with the **MERN stack (MongoDB, Express.js, React, Node.js)**, this application facilitates seamless blood donation management, donor registration, and request tracking.

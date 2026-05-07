@@ -14,7 +14,7 @@ const DonationDetails = () => {
   const { user } = use(AuthContext);
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/donation-details/${id}`)
+      .get(`https://backend11-teal.vercel.app/donation-details/${id}`)
       .then((res) => {
         setDetails(res.data);
       })

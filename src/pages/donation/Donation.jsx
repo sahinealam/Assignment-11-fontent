@@ -18,7 +18,10 @@ const Donation = () => {
     console.log(donorName);
 
     axios
-      .post("http://localhost:3000/create-payment-checkout", formData)
+      .post(
+        "https://backend11-teal.vercel.app/create-payment-checkout",
+        formData,
+      )
       .then((res) => {
         console.log(res.data);
         window.location.href = res.data.url;

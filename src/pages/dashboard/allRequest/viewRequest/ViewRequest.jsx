@@ -10,7 +10,7 @@ const ViewRequest = () => {
   console.log(data);
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/Dashboard/view-request/${id}`)
+      .get(`https://backend11-teal.vercel.app/Dashboard/view-request/${id}`)
       .then((res) => {
         setData(res.data);
       })

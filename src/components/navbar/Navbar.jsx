@@ -49,7 +49,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <Link to='/' className="flex items-center gap-2">
                     <FaHeartbeat className="text-3xl text-red-600" />
-                    <h2 className="text-2xl font-bold tracking-wide">Drop Life</h2>
+                    <h2 className="text-2xl font-bold tracking-wide">Blood Donation</h2>
                 </Link>
 
                 {/* Desktop Menu */}
