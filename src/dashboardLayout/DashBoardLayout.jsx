@@ -3,6 +3,7 @@ import { Outlet } from 'react-router';
 import Aside from '../components/aside/Aside';
 
 const DashBoardLayout = () => {
+    // mine add file
     return (
         <div className='flex'>
             <Aside></Aside>
