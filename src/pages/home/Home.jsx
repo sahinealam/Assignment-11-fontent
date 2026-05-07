@@ -7,6 +7,7 @@ import WhyDonate from '../../components/whyDonate/WhyDonate';
 import FAQ from '../../components/faq/FAQ';
 
 const Home = () => {
+    // Home LayOut
     return (
         <div className='w-11/12 mx-auto space-y-16'>
             <Banner></Banner>
