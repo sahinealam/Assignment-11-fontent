@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHeartbeat } from 'react-icons/fa';
 import { FaFacebook, FaInstagram, FaPinterest } from 'react-icons/fa6';
-
+// Footer section
 const Footer = () => {
     return (
         <footer className="bg-[#1c1c1c] text-white pt-12 pb-6 mt-16">
