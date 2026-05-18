@@ -6,7 +6,7 @@ import { FaDroplet } from 'react-icons/fa6';
 import { toast } from 'react-toastify';
 import { FaHeartbeat } from 'react-icons/fa';
 import { MdDarkMode, MdLightMode } from 'react-icons/md';
-
+// navebar
 const Navbar = () => {
     const { user, logOut } = use(AuthContext)
     const [theme, setTheme] = useState(localStorage.getItem('theme') || "light")
