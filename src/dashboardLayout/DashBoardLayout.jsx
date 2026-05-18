@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router';
 import Aside from '../components/aside/Aside';
-
+// DashBoardLayout
 const DashBoardLayout = () => {
     // mine add file
     return (
