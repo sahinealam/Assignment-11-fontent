@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import LoadingSpinner from "../loadingSpinner/LoadingSpinner";
-
+// Search
 const Search = () => {
   const [upazilas, setUpazilas] = useState([]);
   const [districts, setDistricts] = useState([]);
