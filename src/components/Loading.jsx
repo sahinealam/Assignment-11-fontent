@@ -1,5 +1,5 @@
 import React from 'react';
-
+// Looding section
 const Loading = () => {
     return (
         <div className='min-h-screen flex justify-center items-center'>
