@@ -50,4 +50,4 @@ dotenv }
 
 Authentication-->
 
-{ Firebase Auth (Email/Password + Google Login) }
+{ Firebase Auth (Email/Password) }
